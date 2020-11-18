@@ -27,7 +27,7 @@
 
 	   <menuitem action="product.product_template_action_dietfacts"
 				 id="menu_product_template_action_dietfacts"
-				 parent="product_menu_catalog"
+				 parent="sale.product_menu_catalog"
 				 sequence="2"
 				 active="False"/>
 
