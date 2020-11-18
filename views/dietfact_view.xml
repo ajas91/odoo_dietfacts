@@ -25,12 +25,6 @@
 	    </field>
         </record>
 
-	   <menuitem action="product.product_template_action_dietfacts"
-				 id="menu_product_template_action_dietfacts"
-				 parent="sale.product_menu_catalog"
-				 sequence="2"
-				 active="False"/>
-
 	   <record id="product.product_template_action_dietfacts" model="ir.actions.act_window">
 		   <field name="name">Diet Items</field>
 		   <field name="type">ir.actions.act_window</field>
@@ -50,5 +44,9 @@
 		   </field>
 	   </record>
 
+	   <menuitem action="product.product_template_action_dietfacts"
+				 id="product.product_template_tree_view"
+				 parent="sale.product_menu_catalog"
+				 sequence="3"/>
    </data>
 </odoo>
