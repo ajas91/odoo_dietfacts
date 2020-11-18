@@ -9,7 +9,8 @@ class dietfacts(models.Model):
     
     calories = fields.Integer('Calories')
     servingsize = fields.Float('Serving Size')
-    lastupdated = fields.Datetime('Last Updated')
+    dietitem = fields.Boolean('Diet Item', default=False)
+
 #     name = fields.Char()
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)

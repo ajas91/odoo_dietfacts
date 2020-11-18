@@ -8,6 +8,7 @@
 		<field name="categ_id" position="after">
 		    <field name="calories"/>
 		    <field name="servingsize"/>
+			<field name="dietitem"/>
 		    <field name="__last_update"/>
 		</field>
 	    </field>
@@ -19,8 +20,9 @@
 	    <field name="arch" type="xml">
 		<field name="list_price" position="after">
 		    <field name="calories"/>
-				<field name="servingsize"/>
-				<field name="__last_update"/>
+			<field name="servingsize"/>
+			<field name="dietitem"/>
+			<field name="__last_update"/>
 		</field>
 	    </field>
         </record>
