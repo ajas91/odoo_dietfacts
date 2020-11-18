@@ -8,7 +8,6 @@
 		<field name="categ_id" position="after">
 		    <field name="calories"/>
 		    <field name="servingsize"/>
-			<field name="dietitem"/>
 		    <field name="__last_update"/>
 		</field>
 	    </field>
@@ -21,7 +20,6 @@
 		<field name="list_price" position="after">
 		    <field name="calories"/>
 			<field name="servingsize"/>
-			<field name="dietitem"/>
 			<field name="__last_update"/>
 		</field>
 	    </field>
