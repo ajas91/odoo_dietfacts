@@ -9,7 +9,7 @@ class dietfacts(models.Model):
     
     calories = fields.Integer('Calories')
     servingsize = fields.Float('Serving Size')
-    dietitem = fields.Boolean('Diet Item')
+    dietitem = fields.Boolean(string='Diet Item')
 
 #     name = fields.Char()
 #     value = fields.Integer()
