@@ -46,8 +46,8 @@
 
 	   <menuitem action="product.product_template_action_dietfacts"
 				 id="menu_product_template_action_dietfacts"
-				 parent="product_menu_catalog"
-				 sequence="2"
+				 parent="base.menu_sales"
+				 sequence="14"
 				 active="False"/>
 
    </data>
